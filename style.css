@@ -1,0 +1,125 @@
+.{
+	padding: 0; margin: 0; box-sizing: border-box: 0;
+}
+#home{
+	color:#362222 ;
+	background-image:url("img/bg.png");
+	background-size:cover;
+
+}
+.navbar-brand{
+	margin-left: 20px;
+	font-family: 'Sacramento', cursive;
+	padding: 10px 10px 10px 10px;
+	font-weight: bold;
+	space-between: 1rem;
+	font-size: 2rem;
+}
+
+#shade{
+	color:#E63E6D;
+}
+
+.navbar-nav a:hover{
+	background:#E63E6D ;
+	transition: 0.4;
+}
+.text{
+	padding:300px 200px 200px 200px;
+	text-align:center;
+
+}
+.welcome{
+	font-family: 'Sacramento', cursive;
+	
+	font-size: 5rem;
+}
+.tagline{
+	font-family:'Arizonia', cursive;
+	font-size: 2rem;
+	color:#E63E6D;
+}
+#Posts{
+	text-align: center;
+	margin-top: 50px;
+}
+#Posts h1{
+	color:#362222;
+	font-family:'Arizonia', cursive; 
+}
+#about h1{
+	text-align: center;
+	color:#362222;
+	font-family:'Arizonia', cursive; 
+}
+#about p{
+	font-family:'Sacramento', cursive;
+	margin: 20px 20px 20px 20px;
+	padding: 50px 50px;
+	color:#4A503D;
+	font-size:30px;
+	display: flex;
+	text-align:justify;
+}
+.page2{
+	margin:20px;
+	min-height:100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    transform-style: preserve-3d;
+    transform-origin: center;
+    perspective:5000px;
+}
+.card{
+	flex-basis: 100%;
+	margin: 0px 50px 0px 50px;
+	box-shadow: 5px 6px 10px grey;
+	transform: rotateX(60deg);
+	transition: transform 1s;
+}
+.card img{
+	width:100%;
+}
+.card1:hover{
+	transform: rotateX(0deg) translateZ(300px);
+}
+.card2:hover{
+	transform: rotateX(0deg) rotateY(360deg) translateZ(300px);
+}
+.card3:hover{
+	transform: rotateX(360deg) translateZ(300px);
+
+}
+#form{
+	text-align: center;
+	padding: 20px 20px 50px 20px;
+}
+#form h1{
+	padding-top:70px;
+	color:#362222;
+	font-family:'Arizonia', cursive;
+}
+
+#form p{
+	font-family:'Black Han Sans',sans-serif ;
+	color:#E63E6D;
+}
+#form form input{
+	width:60%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+#form form textarea{
+	width: 60%;
+	padding: 10px;
+}
+
+.footer{
+	padding: 7% 15%;
+	text-align: center;
+	background:#4A503D;
+	color:white;
+	padding:10px;
+
+   }
